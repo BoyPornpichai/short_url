@@ -20,4 +20,5 @@ Create a database with a user and run this sql
 2.เมื่อผู้ใช้กด submit ระบบจะทำการ แปลง ลิ้งโดยการสุ่ม 4 หลัก  และจัดเก็บใน ฐานข้อมูล( MYSQL) และได้มีการนำ .htaccess มาใช้สำหรับ  RewriteRule redirect ของ  short url
  EX.Input --> https://www.youtube.com/watch?v=MNHN_BxkfYU
     Output --> https://Domain web/2250 (ผมใช้ NGROK ทำให้ domain web ไม่แน่นอนครับ)
-3.ผู้ใช้สามารถตรวจสอบ รายการประวัติการสร้าง Short URL ได้
+3.QR Code ใช้ googleapi สำหรับ generate QR เมื่อ ผู้ทำการ สแกน QR Code จะเห็นเป็นลิ้ง ของ short url แต่เวลาเข้าเว็บ จะเป็นเว็บจริง
+4.ผู้ใช้สามารถตรวจสอบ รายการประวัติการสร้าง Short URL ได้
